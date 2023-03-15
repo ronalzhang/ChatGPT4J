@@ -15,7 +15,7 @@ public class ClientTest {
     @Ignore
     public void test() {
         ChatGPTClient client = ChatGPTClient.builder()
-                .apiKey("API_KEY")
+                .apiKey("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")
                 .requestTimeout(30000L)
                 .baseUrl("https://api.openai.com/v1")
                 .build();
